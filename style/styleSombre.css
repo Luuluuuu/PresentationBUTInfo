@@ -1,0 +1,175 @@
+@media (prefers-color-scheme: dark) {
+    /**************** HEADER ****************/
+
+    nav {
+        background-color: rgb(75,75,75);
+    }
+
+    nav a {
+        color: white;
+    }
+
+    nav a:hover {
+        color: rgb(255,164,145);
+        border-bottom: 2px solid rgb(255,164,145);
+        background-color: white;
+    }
+
+    .sous {
+        box-shadow: 0px 1px 2px #CCC;
+        background-color: rgb(75,75,75);
+    }
+
+    .sous a:hover {
+        background-color: white;
+    }
+
+    header {
+        background-color: rgb(255,68,38);
+    }
+
+    /*************** GENERAL ***************/
+    /* PROPRIETE CORPS DE PAGE */
+
+    body {
+        background-color: rgb(70,70,70);
+    }
+
+    main {
+        background-color: rgb(70,70,70);
+    }
+
+    main a {
+        color: white;
+    }
+
+    main a:hover {
+        color: rgb(255,164,145);
+    }
+
+    main h1 {
+        color: rgb(255,68,38);
+    }
+
+    article {
+        background-color: rgb(110,110,110);
+        color:white;
+    }
+
+    /* TITRES */
+
+    h2 {
+        color: white;
+    }
+
+    /* DECORATEUR ROUGE ENTRE ARTICLES */
+
+    .decorateur {
+        border-bottom: solid red;
+    }
+
+    /*************** ACCUEIL ***************/
+
+    .pointille {
+        background-color: black;
+        border-color: white;
+    }
+
+    .fondBlanc {
+        background-color: rgb(70,70,70);
+        border-top: solid red;
+        border-bottom: solid red;
+    }
+
+    .fondBlanc h2 {
+        color: rgb(255,68,38);
+    }
+
+    .fondBlanc p, .fondBlanc ul {
+        color: white;
+    }
+
+    .articleSection {
+        background-color: rgb(70,70,70);
+    }
+
+    #titreRouge {
+        color: red;
+    }
+
+    /********** Présentation BUT **********/
+
+    table {
+        background-color: rgb(70,70,70);
+    }
+
+    tr td {
+        border: 1px solid black;
+    }
+
+    th {
+        background-color: black;
+        color: white;
+    }
+
+    .titre {
+        background-color: rgb(255,68,38);
+    }
+
+    .tableauR li {
+        background-color: rgb(255,68,38);
+    }
+
+    .deuxiemepartie img {
+        box-shadow: none;
+    }
+
+    .deuxiemepartie li {
+        color: white;
+    }
+
+    /*************** COMPETENCES ***************/
+
+    .retour {
+        background-color: grey;
+        color: white;
+    }
+
+    /***************** CONTACT *****************/
+
+    #send:hover {
+        background-color: rgb(75,75,75);
+    }
+
+    /**************** FOOTER ****************/
+
+    footer {
+        background-color: rgb(0,0,0);
+    }
+
+    footer ul {
+        color: white;
+    }
+
+    footer a {
+        color: white;
+    }
+
+    footer a:hover {
+        color: rgb(255,164,145)
+    }
+
+    @media (max-width:800px){
+        nav a:hover {
+            color: white;
+            background-color: rgb(75,75,75);
+            border: none;
+        }
+
+        .sous a:hover {
+            background-color: RGBa(200,200,200,0.8);
+            border: none;
+            border-radius: 0;
+        }
+    }
+}

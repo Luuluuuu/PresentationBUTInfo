@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="IUT Informatique Toulouse Rangueil : Présentation du BUT et des compétences associées"/>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <title>Page contact</title>
+        <link rel="icon" type="image/x-icon" href="img/LogoAled.png">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/styleSombre.css">
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <header>
+            <div class="header-container">
+				<img id="logo-IUT" alt="Logo de l'Institut Universitaire et Technologique" 
+				src="img/logoIUTToulouse.png">
+                <img id="logo-UT3" alt="Logo de l'Université Paul Sabatier" src="img/LogoUT3.png">
+                <img id="logo-BUT" alt="Logo du Bachelor Universitaire et Technologique" 
+				src="img/logoBUT.png">
+                <nav>
+                    <label for="mobile">-----MENU-----</label>
+		  			<input type="checkbox" id="mobile" role="button" aria-pressed="true">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="presentationBUT.html">Présentation du BUT</a></li>
+                        <li class="deroulant"><a href="competence1.html">Compétences</a>
+                            <ul class="sous">
+								<li><a href="competence1.html">Compétence 1</a></li>
+								<li><a href="competence2.html">Compétence 2</a></li>
+								<li><a href="competence3.html">Compétence 3</a></li>
+								<li><a href="competence4.html">Compétence 4</a></li>
+								<li><a href="competence5.html">Compétence 5</a></li>
+								<li><a href="competence6.html">Compétence 6</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="contact">
+            <!-- TITRE -->
+            <h1>Contact</h1>
+
+            <!-- PREMIER ARTICLE : FORMULAIRE-->
+            <article>
+                <h2>Formulaire Contact</h2>
+                <form method="post" class="flex">
+                    <div id="form1">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Ex : Jean" size="30" maxlength="20"/>
+                        <label for="nom">Nom :</label>
+                        <input type="text" name="nom" id="nom" placeholder="Ex : Dupont" size="30" maxlength="20"/>
+                        <label for="adresseMail">Adresse mail :</label>
+                        <input type="text" name="adresseMail" id="adresseMail" placeholder="Ex : mail@example.com" size="50" maxlength="40"/>
+                        <input type="submit" id="send" value="Envoyer"/>
+                    </div>
+                    <div>
+                        <label for="message">Message :</label>
+                        <textarea name="message" id="message" rows="10" cols="50"></textarea>
+                    </div>
+                </form>
+            </article>
+
+            <!-- DEUXIEME ARTICLE : RENSEIGNEMENTS-->
+            <article id="carte" class= "fondBlanc flex">
+                <div>
+                    <img class="image" alt="photo IUT" src="img/photoIUT.jpg">
+                    <p>133 B AV de Rangueil, 31400 TOULOUSE</p>
+                </div>
+                <div id="flecheRouge">
+                    <img class="image" id="fleche" alt="fleche" src="img/fleche-rouge.png">
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.750685850393!2d1.462506015835489!3d43.570077865819194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebc3f8512b055%3A0x275b84d278e27c18!2s133b%20Av.%20de%20Rangueil%2C%2031400%20Toulouse!5e0!3m2!1sfr!2sfr!4v1637420736852!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </article>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-container flex">
+                <div>
+                <ul>
+                    <li><a href="index.html" class="principal">Accueil</a></li>
+                    <li><a href="presentationBUT.html" class="principal">Présentation du BUT</a></li>
+                    <li><a href="competence1.html" class="principal">Compétences</a>
+                        <ul class="secondaire">
+                            <li><a href="competence1.html">Compétence 1</a></li>
+                            <li><a href="competence2.html">Compétence 2</a></li>
+                            <li><a href="competence3.html">Compétence 3</a></li>
+                            <li><a href="competence4.html">Compétence 4</a></li>
+                            <li><a href="competence5.html">Compétence 5</a></li>
+                            <li><a href="competence6.html">Compétence 6</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="principal">Contact</a></li>
+                </ul>
+                </div>
+                <div>
+                    <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees" class="RGPD">CNIL - RGPD</a>
+                </div>
+                <div>
+                    <img id="logoAled" alt="logo entreprise ALED" src="img/LogoAled.png">
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
